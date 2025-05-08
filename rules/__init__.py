@@ -1,1 +1,0 @@
-from .rule_parser import load_rules_from_json

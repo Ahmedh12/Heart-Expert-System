@@ -1,11 +1,11 @@
-import joblib
+import pickle as pkl
 import pandas as pd
 from sklearn.tree import _tree
 import json
 
 def load_model(model_path: str):
     with open(model_path, 'rb') as file:
-        model = joblib.load(file)
+        model = pkl.load(file)
     return model
 
 def extract_rules_from_tree(model):
@@ -14,23 +14,24 @@ def extract_rules_from_tree(model):
 
     rules = []
 
-    def recurse(node, rule):
+    def recurse(node, conditions):
         if tree_.feature[node] != _tree.TREE_UNDEFINED:
             feature_name = feature_names[tree_.feature[node]]
             threshold = tree_.threshold[node]
-            left_child = tree_.children_left[node]
-            right_child = tree_.children_right[node]
-            
-            rule_left = rule + [f"{feature_name} <= {threshold:.2f}"]
-            rule_right = rule + [f"{feature_name} > {threshold:.2f}"]
-            
-            recurse(left_child, rule_left)
-            recurse(right_child, rule_right)
-        else: #leaf node
-            value = tree_.value[node]
-            predicted_class = value.argmax()
-            rule_str = " AND ".join(rule) + f" => Class: {predicted_class} ({value[0][predicted_class]:.2f} probability)"
-            rules.append(rule_str)
+
+            left_conditions = conditions + [f"{feature_name} <= {threshold:.2f}"]
+            right_conditions = conditions + [f"{feature_name} > {threshold:.2f}"]
+
+            recurse(tree_.children_left[node], left_conditions)
+            recurse(tree_.children_right[node], right_conditions)
+        else:
+            # Leaf node
+            class_idx = tree_.value[node].argmax()
+            rules.append({
+                "conditions": conditions,
+                "expression": " and ".join(conditions),
+                "conclusion": {"diagnosis": f"class_{class_idx}"}
+            })
 
     recurse(0, [])
     return rules
@@ -47,7 +48,6 @@ def main():
     
     save_rules_to_json(rules)
 
-    # Print extracted rules for inspection
     for rule in rules:
         print(rule)
 

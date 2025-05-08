@@ -1,1 +1,1 @@
-from .heart_facts import HeartFacts
+from .heart_facts import *
