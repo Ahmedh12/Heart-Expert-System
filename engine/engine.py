@@ -34,10 +34,12 @@ def build_dynamic_engine(json_rules):
                         self.rule_fired = True
                         self.declare(diagnosis(value=concl["diagnosis"]))
                         self.diagnosis = (
-                            "No Heart Diseases Diagnosed"
+                            "❤️ No Heart Diseases Diagnosed..."
                             if concl["diagnosis"] == "class_0"
-                            else "Heart Disease Diagnosed"
+                            else "🖤 Heart Disease Diagnosed..."
                         )
+                        print(f"Rule fired: {conds}")
+                        print(f"Diagnosis: {self.diagnosis}")
                         self.diagnosed = True
                 except NameError as e:
                     missing = extract_missing_fact(e)
@@ -74,7 +76,6 @@ def main():
         engine.run()
 
         if engine.diagnosed:
-            print("✅ Diagnosis:", engine.diagnosis)
             break
         elif engine.missing_facts:
             print("🔍 Missing facts:", engine.missing_facts)

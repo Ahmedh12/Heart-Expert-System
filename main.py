@@ -20,13 +20,10 @@ def main():
                 engine.declare(fact_instance)
             else:
                 print(f"⚠️ Unknown fact: {fact_name}")
-        
-        # print("Facts so far:", engine.facts, "\n")
-        
+                
         engine.run()  
 
         if engine.diagnosed:
-            print("✅ Diagnosis found!:", engine.diagnosis)
             break
         elif engine.missing_facts:
             print("🔍 Missing facts:", engine.missing_facts)
