@@ -1,7 +1,9 @@
 from experta import Fact
 
-class HeartFacts(Fact):
-    pass
+fact_names = [
+    "age", "sex", "cp", "trestbps", "chol", 
+    "fbs", "restecg", "thalach", "exang", 
+    "oldpeak", "slope", "ca", "thal", "diagnosis"]
 
 class age(Fact): #Age
     pass

@@ -26,10 +26,7 @@ def main():
         engine.run()  
 
         if engine.diagnosed:
-            print("✅ Diagnosis found!")
-            for fact in engine.facts.values():
-                if isinstance(fact, diagnosis):
-                    print("Diagnosis:", engine.diagnosis)
+            print("✅ Diagnosis found!:", engine.diagnosis)
             break
         elif engine.missing_facts:
             print("🔍 Missing facts:", engine.missing_facts)

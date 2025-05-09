@@ -26,7 +26,7 @@ def train_model(data_path="data/processed.cleveland.data", model_path="ml/heart_
 
     X_train, X_test , y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-    clf = DecisionTreeClassifier(max_depth=5, random_state=42)
+    clf = DecisionTreeClassifier(max_depth=8, random_state=42, criterion='entropy', min_samples_split=5, min_samples_leaf=5)
     clf.fit(X_train, y_train)
 
     with open(model_path, 'wb') as f:

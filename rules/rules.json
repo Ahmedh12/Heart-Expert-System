@@ -3,117 +3,137 @@
         "conditions": [
             "ca <= 0.50",
             "thal <= 6.50",
+            "thalach <= 160.50",
             "oldpeak <= 2.70",
-            "age <= 57.50",
-            "chol <= 311.50"
+            "chol <= 236.50",
+            "exang <= 0.50"
         ],
-        "expression": "ca <= 0.50 and thal <= 6.50 and oldpeak <= 2.70 and age <= 57.50 and chol <= 311.50",
         "conclusion": {
             "diagnosis": "class_0"
-        }
+        },
+        "probability": 1.0
     },
     {
         "conditions": [
             "ca <= 0.50",
             "thal <= 6.50",
+            "thalach <= 160.50",
             "oldpeak <= 2.70",
-            "age <= 57.50",
-            "chol > 311.50"
+            "chol <= 236.50",
+            "exang > 0.50"
         ],
-        "expression": "ca <= 0.50 and thal <= 6.50 and oldpeak <= 2.70 and age <= 57.50 and chol > 311.50",
         "conclusion": {
             "diagnosis": "class_0"
-        }
+        },
+        "probability": 0.8333333333333334
     },
     {
         "conditions": [
             "ca <= 0.50",
             "thal <= 6.50",
+            "thalach <= 160.50",
             "oldpeak <= 2.70",
-            "age > 57.50",
-            "chol <= 235.00"
+            "chol > 236.50",
+            "restecg <= 1.00",
+            "cp <= 3.50"
         ],
-        "expression": "ca <= 0.50 and thal <= 6.50 and oldpeak <= 2.70 and age > 57.50 and chol <= 235.00",
         "conclusion": {
             "diagnosis": "class_0"
-        }
+        },
+        "probability": 0.6666666666666666
     },
     {
         "conditions": [
             "ca <= 0.50",
             "thal <= 6.50",
+            "thalach <= 160.50",
             "oldpeak <= 2.70",
-            "age > 57.50",
-            "chol > 235.00"
+            "chol > 236.50",
+            "restecg <= 1.00",
+            "cp > 3.50"
         ],
-        "expression": "ca <= 0.50 and thal <= 6.50 and oldpeak <= 2.70 and age > 57.50 and chol > 235.00",
-        "conclusion": {
-            "diagnosis": "class_0"
-        }
-    },
-    {
-        "conditions": [
-            "ca <= 0.50",
-            "thal <= 6.50",
-            "oldpeak > 2.70",
-            "thalach <= 147.50"
-        ],
-        "expression": "ca <= 0.50 and thal <= 6.50 and oldpeak > 2.70 and thalach <= 147.50",
         "conclusion": {
             "diagnosis": "class_1"
-        }
+        },
+        "probability": 0.8
     },
     {
         "conditions": [
             "ca <= 0.50",
             "thal <= 6.50",
-            "oldpeak > 2.70",
-            "thalach > 147.50",
-            "trestbps <= 135.00"
+            "thalach <= 160.50",
+            "oldpeak <= 2.70",
+            "chol > 236.50",
+            "restecg > 1.00",
+            "sex <= 0.50"
         ],
-        "expression": "ca <= 0.50 and thal <= 6.50 and oldpeak > 2.70 and thalach > 147.50 and trestbps <= 135.00",
         "conclusion": {
             "diagnosis": "class_0"
-        }
+        },
+        "probability": 1.0
     },
     {
         "conditions": [
             "ca <= 0.50",
             "thal <= 6.50",
-            "oldpeak > 2.70",
-            "thalach > 147.50",
-            "trestbps > 135.00"
+            "thalach <= 160.50",
+            "oldpeak <= 2.70",
+            "chol > 236.50",
+            "restecg > 1.00",
+            "sex > 0.50"
         ],
-        "expression": "ca <= 0.50 and thal <= 6.50 and oldpeak > 2.70 and thalach > 147.50 and trestbps > 135.00",
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.6
+    },
+    {
+        "conditions": [
+            "ca <= 0.50",
+            "thal <= 6.50",
+            "thalach <= 160.50",
+            "oldpeak > 2.70"
+        ],
         "conclusion": {
             "diagnosis": "class_1"
-        }
+        },
+        "probability": 0.8
+    },
+    {
+        "conditions": [
+            "ca <= 0.50",
+            "thal <= 6.50",
+            "thalach > 160.50",
+            "chol <= 304.50"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "ca <= 0.50",
+            "thal <= 6.50",
+            "thalach > 160.50",
+            "chol > 304.50"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.8
     },
     {
         "conditions": [
             "ca <= 0.50",
             "thal > 6.50",
             "cp <= 3.50",
-            "thalach <= 152.00",
-            "oldpeak <= 0.80"
+            "thalach <= 152.00"
         ],
-        "expression": "ca <= 0.50 and thal > 6.50 and cp <= 3.50 and thalach <= 152.00 and oldpeak <= 0.80",
-        "conclusion": {
-            "diagnosis": "class_0"
-        }
-    },
-    {
-        "conditions": [
-            "ca <= 0.50",
-            "thal > 6.50",
-            "cp <= 3.50",
-            "thalach <= 152.00",
-            "oldpeak > 0.80"
-        ],
-        "expression": "ca <= 0.50 and thal > 6.50 and cp <= 3.50 and thalach <= 152.00 and oldpeak > 0.80",
         "conclusion": {
             "diagnosis": "class_1"
-        }
+        },
+        "probability": 0.6666666666666666
     },
     {
         "conditions": [
@@ -121,12 +141,12 @@
             "thal > 6.50",
             "cp <= 3.50",
             "thalach > 152.00",
-            "slope <= 2.50"
+            "slope <= 1.50"
         ],
-        "expression": "ca <= 0.50 and thal > 6.50 and cp <= 3.50 and thalach > 152.00 and slope <= 2.50",
         "conclusion": {
             "diagnosis": "class_0"
-        }
+        },
+        "probability": 1.0
     },
     {
         "conditions": [
@@ -134,38 +154,24 @@
             "thal > 6.50",
             "cp <= 3.50",
             "thalach > 152.00",
-            "slope > 2.50"
+            "slope > 1.50"
         ],
-        "expression": "ca <= 0.50 and thal > 6.50 and cp <= 3.50 and thalach > 152.00 and slope > 2.50",
         "conclusion": {
             "diagnosis": "class_0"
-        }
+        },
+        "probability": 0.75
     },
     {
         "conditions": [
             "ca <= 0.50",
             "thal > 6.50",
             "cp > 3.50",
-            "oldpeak <= 0.45",
-            "age <= 42.00"
+            "oldpeak <= 0.45"
         ],
-        "expression": "ca <= 0.50 and thal > 6.50 and cp > 3.50 and oldpeak <= 0.45 and age <= 42.00",
-        "conclusion": {
-            "diagnosis": "class_1"
-        }
-    },
-    {
-        "conditions": [
-            "ca <= 0.50",
-            "thal > 6.50",
-            "cp > 3.50",
-            "oldpeak <= 0.45",
-            "age > 42.00"
-        ],
-        "expression": "ca <= 0.50 and thal > 6.50 and cp > 3.50 and oldpeak <= 0.45 and age > 42.00",
         "conclusion": {
             "diagnosis": "class_0"
-        }
+        },
+        "probability": 0.5714285714285714
     },
     {
         "conditions": [
@@ -174,36 +180,22 @@
             "cp > 3.50",
             "oldpeak > 0.45"
         ],
-        "expression": "ca <= 0.50 and thal > 6.50 and cp > 3.50 and oldpeak > 0.45",
         "conclusion": {
             "diagnosis": "class_1"
-        }
+        },
+        "probability": 1.0
     },
     {
         "conditions": [
             "ca > 0.50",
             "cp <= 3.50",
             "oldpeak <= 0.35",
-            "cp <= 2.50",
-            "thalach <= 141.50"
+            "cp <= 2.50"
         ],
-        "expression": "ca > 0.50 and cp <= 3.50 and oldpeak <= 0.35 and cp <= 2.50 and thalach <= 141.50",
         "conclusion": {
             "diagnosis": "class_0"
-        }
-    },
-    {
-        "conditions": [
-            "ca > 0.50",
-            "cp <= 3.50",
-            "oldpeak <= 0.35",
-            "cp <= 2.50",
-            "thalach > 141.50"
-        ],
-        "expression": "ca > 0.50 and cp <= 3.50 and oldpeak <= 0.35 and cp <= 2.50 and thalach > 141.50",
-        "conclusion": {
-            "diagnosis": "class_1"
-        }
+        },
+        "probability": 0.5
     },
     {
         "conditions": [
@@ -212,10 +204,10 @@
             "oldpeak <= 0.35",
             "cp > 2.50"
         ],
-        "expression": "ca > 0.50 and cp <= 3.50 and oldpeak <= 0.35 and cp > 2.50",
         "conclusion": {
             "diagnosis": "class_0"
-        }
+        },
+        "probability": 1.0
     },
     {
         "conditions": [
@@ -224,10 +216,10 @@
             "oldpeak > 0.35",
             "thalach <= 145.50"
         ],
-        "expression": "ca > 0.50 and cp <= 3.50 and oldpeak > 0.35 and thalach <= 145.50",
         "conclusion": {
             "diagnosis": "class_1"
-        }
+        },
+        "probability": 1.0
     },
     {
         "conditions": [
@@ -235,12 +227,12 @@
             "cp <= 3.50",
             "oldpeak > 0.35",
             "thalach > 145.50",
-            "chol <= 230.00"
+            "thal <= 5.00"
         ],
-        "expression": "ca > 0.50 and cp <= 3.50 and oldpeak > 0.35 and thalach > 145.50 and chol <= 230.00",
         "conclusion": {
-            "diagnosis": "class_1"
-        }
+            "diagnosis": "class_0"
+        },
+        "probability": 0.6666666666666666
     },
     {
         "conditions": [
@@ -248,73 +240,60 @@
             "cp <= 3.50",
             "oldpeak > 0.35",
             "thalach > 145.50",
-            "chol > 230.00"
+            "thal > 5.00"
         ],
-        "expression": "ca > 0.50 and cp <= 3.50 and oldpeak > 0.35 and thalach > 145.50 and chol > 230.00",
-        "conclusion": {
-            "diagnosis": "class_0"
-        }
-    },
-    {
-        "conditions": [
-            "ca > 0.50",
-            "cp > 3.50",
-            "trestbps <= 109.00",
-            "thalach <= 151.50"
-        ],
-        "expression": "ca > 0.50 and cp > 3.50 and trestbps <= 109.00 and thalach <= 151.50",
-        "conclusion": {
-            "diagnosis": "class_0"
-        }
-    },
-    {
-        "conditions": [
-            "ca > 0.50",
-            "cp > 3.50",
-            "trestbps <= 109.00",
-            "thalach > 151.50"
-        ],
-        "expression": "ca > 0.50 and cp > 3.50 and trestbps <= 109.00 and thalach > 151.50",
         "conclusion": {
             "diagnosis": "class_1"
-        }
+        },
+        "probability": 0.8
     },
     {
         "conditions": [
             "ca > 0.50",
             "cp > 3.50",
-            "trestbps > 109.00",
-            "age <= 63.50"
+            "restecg <= 0.50",
+            "age <= 63.50",
+            "oldpeak <= 0.65"
         ],
-        "expression": "ca > 0.50 and cp > 3.50 and trestbps > 109.00 and age <= 63.50",
         "conclusion": {
             "diagnosis": "class_1"
-        }
+        },
+        "probability": 0.8
     },
     {
         "conditions": [
             "ca > 0.50",
             "cp > 3.50",
-            "trestbps > 109.00",
-            "age > 63.50",
-            "age <= 64.50"
+            "restecg <= 0.50",
+            "age <= 63.50",
+            "oldpeak > 0.65"
         ],
-        "expression": "ca > 0.50 and cp > 3.50 and trestbps > 109.00 and age > 63.50 and age <= 64.50",
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "ca > 0.50",
+            "cp > 3.50",
+            "restecg <= 0.50",
+            "age > 63.50"
+        ],
         "conclusion": {
             "diagnosis": "class_0"
-        }
+        },
+        "probability": 0.6
     },
     {
         "conditions": [
             "ca > 0.50",
             "cp > 3.50",
-            "trestbps > 109.00",
-            "age > 63.50",
-            "age > 64.50"
+            "restecg > 0.50"
         ],
-        "expression": "ca > 0.50 and cp > 3.50 and trestbps > 109.00 and age > 63.50 and age > 64.50",
         "conclusion": {
             "diagnosis": "class_1"
-        }
+        },
+        "probability": 1.0
     }
 ]

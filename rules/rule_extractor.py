@@ -29,8 +29,8 @@ def extract_rules_from_tree(model):
             class_idx = tree_.value[node].argmax()
             rules.append({
                 "conditions": conditions,
-                "expression": " and ".join(conditions),
-                "conclusion": {"diagnosis": f"class_{class_idx}"}
+                "conclusion": {"diagnosis": f"class_{class_idx}"},
+                "probability": tree_.value[node][0][class_idx] / tree_.value[node].sum()
             })
 
     recurse(0, [])
