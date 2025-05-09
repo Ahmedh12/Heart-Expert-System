@@ -1,20 +1,18 @@
 from experta import KnowledgeEngine, Fact, Rule
-from facts import *
+from .facts import *
 import json
 
-# --- Helper to extract next needed fact ---
 def extract_missing_fact(error_msg):
     if "name '" in str(error_msg):
         return str(error_msg).split("name '")[1].split("'")[0]
     return None
 
-# --- Dynamic rule builder ---
 def build_dynamic_engine(json_rules):
     class HeartExpert(KnowledgeEngine):
         def __init__(self):
             super().__init__()
             self.missing_facts = set()
-            self.rule_fired = False
+            self.diagnosed = False
             self.diagnosis = None
 
     for idx, rule_data in enumerate(json_rules):
@@ -50,13 +48,16 @@ def main():
     with open(f"rules/rules.json") as f:
         rules = json.load(f)
 
-    
+
     engine = build_dynamic_engine(rules)
     engine.reset()
 
+    engine.declare(cp(cp=45))
+    engine.declare(ca(ca=45))
+
     engine.run()
 
-    if engine.rule_fired:
+    if engine.diagnosed:
         print(engine.diagnosis)
     elif engine.missing_facts:
         print("Ask for:", engine.missing_facts)

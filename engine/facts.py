@@ -3,10 +3,10 @@ from experta import Fact
 class HeartFacts(Fact):
     pass
 
-class Age(Fact): #Age
+class age(Fact): #Age
     pass
 
-class Sex(Fact): #Sex
+class sex(Fact): #Sex
     pass
 
 class cp(Fact): #Chest Pain
