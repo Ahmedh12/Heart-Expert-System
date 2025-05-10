@@ -1,0 +1,1439 @@
+[
+    {
+        "conditions": [
+            "ca > 0.5",
+            "cp > 3.5",
+            "thalach > 105.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.96
+    },
+    {
+        "conditions": [
+            "ca > 0.5",
+            "cp > 1.5",
+            "oldpeak > 0.550000011920929"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9574468085106383
+    },
+    {
+        "conditions": [
+            "ca > 0.5",
+            "cp > 3.5",
+            "trestbps > 109.0"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9574468085106383
+    },
+    {
+        "conditions": [
+            "ca > 0.5",
+            "thal > 4.5",
+            "trestbps > 109.0"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.96
+    },
+    {
+        "conditions": [
+            "ca > 0.5",
+            "cp > 3.5",
+            "trestbps > 109.0",
+            "thalach > 106.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9772727272727273
+    },
+    {
+        "conditions": [
+            "ca > 0.5",
+            "cp > 3.5",
+            "trestbps > 107.0",
+            "thalach > 105.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9691522086870924
+    },
+    {
+        "conditions": [
+            "age <= 65.5",
+            "thal > 4.5",
+            "cp > 3.5",
+            "oldpeak > 0.45000000298023224"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9767566090240508
+    },
+    {
+        "conditions": [
+            "ca > 0.5",
+            "cp > 3.5",
+            "trestbps > 109.0",
+            "thalach > 105.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9907936507936508
+    },
+    {
+        "conditions": [
+            "thal > 4.5",
+            "cp > 3.5",
+            "trestbps > 113.5",
+            "oldpeak > 0.45000000298023224"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9782608695652174
+    },
+    {
+        "conditions": [
+            "ca > 0.5",
+            "cp > 3.5",
+            "oldpeak > 0.9000000059604645"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "sex > 0.5",
+            "ca > 0.5",
+            "cp > 3.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9653209109730849
+    },
+    {
+        "conditions": [
+            "age <= 63.5",
+            "ca > 0.5",
+            "thal > 4.5",
+            "trestbps > 109.0"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9523809523809523
+    },
+    {
+        "conditions": [
+            "age <= 63.5",
+            "ca > 0.5",
+            "cp > 3.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9752736542210226
+    },
+    {
+        "conditions": [
+            "age <= 65.5",
+            "thal > 4.5",
+            "cp > 3.5",
+            "oldpeak > 0.5000000149011612"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.975609756097561
+    },
+    {
+        "conditions": [
+            "thal > 4.5",
+            "cp > 3.5",
+            "trestbps > 112.0",
+            "oldpeak > 0.45000000298023224"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9761769710720363
+    },
+    {
+        "conditions": [
+            "sex > 0.5",
+            "ca > 0.5",
+            "cp > 3.5",
+            "trestbps > 109.0"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.975803329461866
+    },
+    {
+        "conditions": [
+            "age <= 68.0",
+            "ca > 0.5",
+            "chol <= 300.5",
+            "thalach <= 176.0",
+            "oldpeak > 0.550000011920929"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.975
+    },
+    {
+        "conditions": [
+            "ca > 0.5",
+            "cp > 3.5",
+            "trestbps > 107.0",
+            "chol <= 301.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9523809523809523
+    },
+    {
+        "conditions": [
+            "age <= 63.5",
+            "ca > 0.5",
+            "cp > 3.5",
+            "trestbps > 109.0"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "ca > 0.5",
+            "cp > 3.5",
+            "trestbps > 109.0",
+            "chol <= 301.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.975
+    },
+    {
+        "conditions": [
+            "age <= 63.5",
+            "age > 44.0",
+            "ca > 0.5",
+            "chol <= 413.0",
+            "oldpeak > 0.3500000089406967"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9736842105263158
+    },
+    {
+        "conditions": [
+            "ca > 0.5",
+            "thal > 4.5",
+            "cp > 3.5",
+            "trestbps > 97.0",
+            "chol > 128.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9545454545454546
+    },
+    {
+        "conditions": [
+            "ca <= 2.5",
+            "thal > 4.5",
+            "cp > 1.5",
+            "trestbps > 112.0",
+            "chol <= 486.5",
+            "oldpeak > 0.550000011920929"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.975609756097561
+    },
+    {
+        "conditions": [
+            "age <= 63.5",
+            "ca > 0.5",
+            "cp > 3.5",
+            "trestbps > 107.0"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9752747252747253
+    },
+    {
+        "conditions": [
+            "ca > 0.5",
+            "cp > 3.5",
+            "oldpeak > 0.4000000134110451"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.975
+    },
+    {
+        "conditions": [
+            "ca > 0.5",
+            "thal > 4.5",
+            "cp > 1.5",
+            "thalach <= 183.5",
+            "oldpeak > 0.550000011920929"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9743589743589743
+    },
+    {
+        "conditions": [
+            "age <= 65.5",
+            "thal > 4.5",
+            "cp > 3.5",
+            "trestbps > 112.0",
+            "thalach <= 167.0"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.925
+    },
+    {
+        "conditions": [
+            "ca <= 2.5",
+            "ca > 0.5",
+            "chol <= 413.0",
+            "oldpeak > 0.550000011920929"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9512195121951219
+    },
+    {
+        "conditions": [
+            "ca > 0.5",
+            "cp > 3.5",
+            "thalach <= 176.0",
+            "oldpeak > 0.550000011920929"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9736842105263158
+    },
+    {
+        "conditions": [
+            "thal > 6.5",
+            "cp > 3.5",
+            "oldpeak > 0.45000000298023224"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "sex > 0.5",
+            "ca > 0.5",
+            "cp > 3.5",
+            "trestbps > 108.0"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "ca > 0.5",
+            "thal > 4.5",
+            "trestbps > 104.0",
+            "thalach > 107.0"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.925
+    },
+    {
+        "conditions": [
+            "ca <= 2.5",
+            "thal > 6.5",
+            "cp > 1.5",
+            "chol <= 485.5",
+            "oldpeak > 0.550000011920929"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.9487179487179487
+    },
+    {
+        "conditions": [
+            "sex > 0.5",
+            "ca > 0.5",
+            "chol <= 413.0",
+            "thalach <= 174.0",
+            "oldpeak > 0.550000011920929"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.972972972972973
+    },
+    {
+        "conditions": [
+            "age <= 65.5",
+            "thal > 4.5",
+            "cp > 3.5",
+            "trestbps > 112.0",
+            "oldpeak > 0.45000000298023224"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "ca > 0.5",
+            "thal > 4.5",
+            "thalach <= 176.0",
+            "oldpeak > 0.550000011920929"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "ca <= 2.5",
+            "ca > 0.5",
+            "thal > 4.5",
+            "trestbps > 109.0",
+            "chol > 128.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_1"
+        },
+        "probability": 0.972972972972973
+    },
+    {
+        "conditions": [
+            "age <= 62.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps <= 158.0",
+            "chol <= 311.5",
+            "thalach > 83.5",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9814814814814815
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps <= 158.0",
+            "chol <= 319.0",
+            "exang <= 0.5",
+            "oldpeak <= 2.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9821428571428571
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps <= 165.0",
+            "trestbps > 109.0",
+            "chol <= 318.0",
+            "thalach > 136.5",
+            "oldpeak <= 2.600000023841858"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9814814814814815
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps <= 158.0",
+            "trestbps > 109.0",
+            "chol <= 283.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9137931034482759
+    },
+    {
+        "conditions": [
+            "age <= 59.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps <= 157.5",
+            "chol <= 311.5",
+            "oldpeak <= 3.549999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9821428571428571
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps <= 157.5",
+            "trestbps > 109.0",
+            "chol <= 318.0",
+            "thalach > 83.5",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9636363636363636
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "chol <= 321.5",
+            "thalach > 83.5",
+            "exang <= 0.5",
+            "oldpeak <= 2.799999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9454545454545454
+    },
+    {
+        "conditions": [
+            "age <= 61.5",
+            "age > 36.0",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps <= 158.0",
+            "trestbps > 109.0",
+            "thalach > 83.5",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9811320754716981
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "chol <= 319.0",
+            "thalach > 83.5",
+            "exang <= 0.5",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9629629629629629
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "trestbps > 109.0",
+            "chol <= 272.5",
+            "thalach > 142.0",
+            "oldpeak <= 2.700000047683716"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9137931034482759
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "chol <= 311.5",
+            "oldpeak <= 3.549999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9803921568627451
+    },
+    {
+        "conditions": [
+            "age <= 58.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "oldpeak <= 2.450000047683716"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9454545454545454
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "chol <= 283.5",
+            "thalach > 83.5",
+            "exang <= 0.5",
+            "oldpeak <= 2.649999976158142"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9636363636363636
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps <= 158.0",
+            "trestbps > 109.0",
+            "chol <= 321.5",
+            "thalach > 83.5",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.96
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "chol <= 319.0",
+            "thalach > 83.5",
+            "exang <= 0.5",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9803921568627451
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "thalach > 125.5",
+            "oldpeak <= 2.6999999284744263"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9803921568627451
+    },
+    {
+        "conditions": [
+            "age > 40.5",
+            "ca <= 0.5",
+            "trestbps <= 173.0",
+            "trestbps > 111.0",
+            "chol <= 272.5",
+            "thalach > 136.5",
+            "oldpeak <= 2.700000047683716"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9803921568627451
+    },
+    {
+        "conditions": [
+            "age <= 61.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps > 109.0",
+            "thalach > 136.5",
+            "oldpeak <= 3.549999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9245283018867925
+    },
+    {
+        "conditions": [
+            "age <= 60.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps <= 158.0",
+            "trestbps > 109.0",
+            "thalach > 83.5",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps <= 158.0",
+            "trestbps > 109.0",
+            "chol <= 327.5",
+            "thalach > 136.5",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9791666666666666
+    },
+    {
+        "conditions": [
+            "age <= 67.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "thalach > 147.5",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9782608695652174
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps <= 167.0",
+            "chol <= 311.5",
+            "thalach > 93.0",
+            "oldpeak <= 2.600000023841858"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.98
+    },
+    {
+        "conditions": [
+            "age <= 59.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "chol <= 311.5",
+            "thalach > 83.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9056603773584906
+    },
+    {
+        "conditions": [
+            "age <= 60.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps <= 158.0",
+            "trestbps > 109.0",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "age <= 62.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps <= 157.5",
+            "trestbps > 109.0",
+            "thalach > 83.5",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9607843137254902
+    },
+    {
+        "conditions": [
+            "age <= 59.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps <= 158.0",
+            "trestbps > 109.0"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9607843137254902
+    },
+    {
+        "conditions": [
+            "age <= 58.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps > 109.0",
+            "oldpeak <= 3.549999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9574468085106383
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "chol <= 311.5",
+            "oldpeak <= 2.6999999284744263"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "chol <= 319.0",
+            "exang <= 0.5",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9680567879325643
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 110.0",
+            "chol <= 319.0",
+            "thalach > 83.5",
+            "exang <= 0.5",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "age <= 61.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps <= 165.0",
+            "trestbps > 109.0",
+            "thalach > 136.5",
+            "oldpeak <= 3.549999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.96
+    },
+    {
+        "conditions": [
+            "age <= 58.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps <= 167.0",
+            "trestbps > 109.0",
+            "chol <= 272.0",
+            "thalach > 83.5",
+            "exang <= 0.5",
+            "oldpeak <= 2.799999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "chol <= 327.5",
+            "thalach > 136.5",
+            "oldpeak <= 1.300000011920929"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9782608695652174
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "chol <= 283.5",
+            "exang <= 0.5",
+            "oldpeak <= 2.450000047683716"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9574468085106383
+    },
+    {
+        "conditions": [
+            "age <= 58.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps > 109.0",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "age <= 60.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps > 109.0",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9591836734693877
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "trestbps > 111.0",
+            "chol <= 272.5",
+            "thalach > 147.5",
+            "oldpeak <= 2.649999976158142"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9583333333333334
+    },
+    {
+        "conditions": [
+            "age <= 58.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "thalach > 125.5",
+            "oldpeak <= 3.549999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9574468085106383
+    },
+    {
+        "conditions": [
+            "age <= 58.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "thalach > 136.5",
+            "oldpeak <= 2.600000023841858"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9782608695652174
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "oldpeak <= 2.600000023841858"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9779980657640233
+    },
+    {
+        "conditions": [
+            "age <= 56.5",
+            "thal <= 4.5",
+            "trestbps > 113.5",
+            "thalach > 119.0",
+            "oldpeak <= 3.299999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9772727272727273
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "oldpeak <= 2.6999999284744263"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9782913165266106
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps <= 147.5",
+            "trestbps > 109.0",
+            "chol <= 272.0",
+            "thalach > 83.5",
+            "oldpeak <= 2.700000047683716"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9772727272727273
+    },
+    {
+        "conditions": [
+            "age <= 56.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps <= 158.0",
+            "trestbps > 109.0"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9787234042553191
+    },
+    {
+        "conditions": [
+            "age > 40.5",
+            "ca <= 0.5",
+            "trestbps > 111.0",
+            "chol <= 272.5",
+            "thalach > 83.5",
+            "exang <= 0.5",
+            "oldpeak <= 2.799999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9555555555555556
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "chol <= 272.0",
+            "exang <= 0.5",
+            "oldpeak <= 2.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9772727272727273
+    },
+    {
+        "conditions": [
+            "age <= 61.0",
+            "ca <= 0.5",
+            "trestbps > 111.0",
+            "chol <= 272.5",
+            "thalach > 147.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9772727272727273
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "chol <= 272.0",
+            "exang <= 0.5",
+            "oldpeak <= 3.0999999046325684"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9772727272727273
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps > 109.0",
+            "thalach > 83.5",
+            "oldpeak <= 2.799999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "trestbps <= 143.0",
+            "trestbps > 111.0",
+            "chol <= 269.5",
+            "chol > 174.5",
+            "thalach > 83.5",
+            "oldpeak <= 2.450000047683716"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9565217391304348
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps <= 158.0",
+            "trestbps > 109.0",
+            "thalach > 83.5",
+            "oldpeak <= 2.799999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "thalach > 125.5",
+            "oldpeak <= 2.6999999284744263"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "chol <= 272.5",
+            "thalach > 147.5",
+            "oldpeak <= 2.649999976158142"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9555555555555556
+    },
+    {
+        "conditions": [
+            "age <= 57.0",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps > 109.0",
+            "thalach > 83.5",
+            "oldpeak <= 2.799999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "age <= 59.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps <= 158.0",
+            "trestbps > 109.0",
+            "oldpeak <= 1.699999988079071"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "oldpeak <= 3.549999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9545454545454546
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps > 109.0",
+            "oldpeak <= 3.549999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps > 109.0",
+            "oldpeak <= 2.700000047683716"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "age <= 54.5",
+            "ca <= 0.5",
+            "thal <= 4.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9545454545454546
+    },
+    {
+        "conditions": [
+            "age <= 58.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "exang <= 0.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9772727272727273
+    },
+    {
+        "conditions": [
+            "age <= 56.5",
+            "slope <= 2.5",
+            "ca <= 0.5",
+            "thalach > 83.5",
+            "exang <= 0.5",
+            "oldpeak <= 2.450000047683716"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9166666666666666
+    },
+    {
+        "conditions": [
+            "age <= 56.5",
+            "thal <= 6.5",
+            "cp <= 3.5",
+            "thalach > 129.0",
+            "oldpeak <= 2.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9565217391304348
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps <= 167.0",
+            "trestbps > 109.0",
+            "chol <= 311.5",
+            "oldpeak <= 3.549999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9761904761904762
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps > 109.0",
+            "oldpeak <= 2.799999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps > 109.0"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9777777777777777
+    },
+    {
+        "conditions": [
+            "age > 40.5",
+            "ca <= 0.5",
+            "trestbps > 111.0",
+            "chol <= 272.0",
+            "thalach > 83.5",
+            "exang <= 0.5",
+            "oldpeak <= 2.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "trestbps > 111.0",
+            "chol <= 272.5",
+            "thalach > 147.0",
+            "oldpeak <= 2.649999976158142"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9534883720930233
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "thalach > 147.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    },
+    {
+        "conditions": [
+            "age <= 57.5",
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "trestbps > 109.0",
+            "oldpeak <= 2.799999952316284"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.975609756097561
+    },
+    {
+        "conditions": [
+            "ca <= 0.5",
+            "thal <= 6.5",
+            "thalach > 158.5"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 0.9534883720930233
+    },
+    {
+        "conditions": [
+            "age <= 54.5",
+            "ca <= 0.5",
+            "thal <= 4.5",
+            "trestbps > 109.0"
+        ],
+        "conclusion": {
+            "diagnosis": "class_0"
+        },
+        "probability": 1.0
+    }
+]
