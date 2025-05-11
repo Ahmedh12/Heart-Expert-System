@@ -15,6 +15,7 @@ def build_dynamic_engine(json_rules):
             self.diagnosed = False
             self.diagnosis = None
             self.rule_fired = False
+            self.last_rule_fired = None
 
     for idx, rule_data in enumerate(json_rules):
         conditions = rule_data["conditions"]
@@ -34,12 +35,11 @@ def build_dynamic_engine(json_rules):
                         self.rule_fired = True
                         self.declare(diagnosis(value=concl["diagnosis"]))
                         self.diagnosis = (
-                            "❤️ No Heart Diseases Diagnosed..."
+                            "No Heart Diseases Detected...😁"
                             if concl["diagnosis"] == "class_0"
-                            else "🖤 Heart Disease Diagnosed..."
+                            else "Heart Disease Diagnosed...😞"
                         )
-                        print(f"Rule fired: {conds}")
-                        print(f"Diagnosis: {self.diagnosis}")
+                        self.last_rule_fired = " and ".join(conds)
                         self.diagnosed = True
                 except NameError as e:
                     missing = extract_missing_fact(e)
@@ -64,16 +64,20 @@ def main():
 
     while True:
         engine.reset()
-        engine.rule_fired = False
         engine.missing_facts = set()
-
-        # Declare all known facts again
         for fact_name, value in user_input.items():
             fact_class = globals().get(fact_name)
             if fact_class:
-                engine.declare(fact_class(**{fact_name: value}))
+                fact_instance = fact_class(**{fact_name: value})
+                try:
+                    engine.declare(fact_instance)
+                except InvalidFact as e:
+                    print(f"⚠️ Error declaring fact '{fact_name}': {e}")
 
-        engine.run()
+            else:
+                print(f"⚠️ Unknown fact: {fact_name}")
+                
+        engine.run()  
 
         if engine.diagnosed:
             break
@@ -85,10 +89,27 @@ def main():
                     value = float(value) if '.' in value else int(value)
                 except ValueError:
                     pass
-                user_input[fact_name] = value
-        elif not engine.rule_fired:
-            print("❌ No more rules can be fired and no diagnosis was made.")
+
+                fact_class = globals().get(fact_name)
+                if fact_class:
+                    user_input[fact_name] = value
+                else:
+                    print(f"⚠️ Unknown fact: {fact_name}")
+        else:
+            print("❌ No applicable rule.")
             break
 
 if __name__ == "__main__":
     main()
+
+
+    with open("rules/rules.json") as f:
+        rules = json.load(f)
+
+    engine = build_dynamic_engine(rules)
+    
+    user_input = {}
+
+    
+    
+    

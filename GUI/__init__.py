@@ -1,0 +1,1 @@
+from GUI.interface import ExpertSystemGUI
