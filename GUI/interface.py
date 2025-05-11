@@ -7,7 +7,6 @@ from ttkbootstrap.dialogs import Messagebox
 class ExpertSystemGUI:
     def __init__(self, root, Fields, engine, diagnose_handler=None):
         self.root = root
-        self.canvas = tb.Canvas(self.root)
         self.root.title("Heart Disease Diagnosis Expert System")
         self.engine = engine
         self.Fields = Fields
